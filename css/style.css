@@ -526,7 +526,7 @@ body {
   z-index: 9999;
 }
 
-.track-title:hover .lyrics-popup {
+.track-title.is-open .lyrics-popup {
   display: block;
 }
 
@@ -714,9 +714,9 @@ body {
 
   /* ---------- Profile ---------- */
 
-.profile-hero img{
-  width:70%;
-  height:auto;
+  .profile-hero img{
+   width:70%;
+   height:auto;
   }
 
   .profile-content h1{
