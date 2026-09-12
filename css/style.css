@@ -526,7 +526,7 @@ body {
   z-index: 9999;
 }
 
-.track-title.is-open .lyrics-popup {
+.track-title:hover .lyrics-popup {
   display: block;
 }
 
@@ -760,6 +760,10 @@ body {
     width:90vw;
     max-height:220px;
     font-size:12px;
+  }
+
+  .track-title.is-open .lyrics-popup {
+    display: block;
   }
 
   /* ---------- SNS ---------- */
