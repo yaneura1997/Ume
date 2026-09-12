@@ -715,9 +715,9 @@ body {
 
   /* ---------- Profile ---------- */
 
-  .profile-hero{
-    width:40%;
-    margin-bottom:40px;
+.profile-hero img{
+  width:70%;
+  height:auto;
   }
 
   .profile-content h1{
