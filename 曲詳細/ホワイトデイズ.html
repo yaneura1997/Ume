@@ -58,6 +58,7 @@
 
   </header>
 
+
   <!-- =======================================
        Main
   ======================================== -->
@@ -67,8 +68,11 @@
     <div class="song-detail-inner">
 
       <!-- ジャケット -->
-      <img src="../image/ホワイトデイズ_ジャケ写.jpg"
-           alt="ホワイトデイズ">
+      <img
+        src="../image/ホワイトデイズ_ジャケ写.jpg"
+        alt="ホワイトデイズ"
+      >
+
 
       <!-- 楽曲情報 -->
       <div class="song-info">
@@ -83,6 +87,8 @@
           RELEASE 2026.08.30
         </p>
 
+
+        <!-- クレジット -->
         <div class="credit">
 
           <p>
@@ -99,7 +105,9 @@
 
         </div>
 
+
         <hr>
+
 
         <!-- =======================================
              Track List
@@ -109,6 +117,7 @@
 
           <h2>TRACK LIST</h2>
 
+          <!-- 1曲目 -->
           <div class="track">
 
             <div class="track-head">
@@ -120,27 +129,29 @@
                   01. ホワイトデイズ
 
                   <span class="lyrics-popup">
-ホワイトデイズ
+                    ホワイトデイズ
 
-どんな時でも笑顔くれた
-かわいくてあったかい食いしん坊なとこも
-大好きだった そのぬくもりが
-ずっと近くにあるものだと思ってた
+                    どんな時でも笑顔くれた
+                    かわいくてあったかい食いしん坊なとこも
+                    大好きだった そのぬくもりが
+                    ずっと近くにあるものだと思ってた
 
-涙なんて流さないで歩いていくよ
-君のあたたかさ残るこの街で
-滲んだ空に向かいこの思い届けるよ
-it's my white days 君に届くように
+                    涙なんて流さないで歩いていくよ
+                    君のあたたかさ残るこの街で
+                    滲んだ空に向かいこの思い届けるよ
+                    it's my white days 君に届くように
 
-ぎゅっとして安心する不思議な魔法
-凍った心が静かに解けるように
+                    ぎゅっとして安心する不思議な魔法
+                    凍った心が静かに解けるように
 
-君がくれた光集めて僕は唄う
-it's our white days 君に届くように
+                    君がくれた光集めて僕は唄う
+                    it's our white days 君に届くように
                   </span>
 
                 </span>
 
+
+                <!-- 再生ボタン -->
                 <button class="play">
                   ▶
                 </button>
@@ -149,6 +160,8 @@ it's our white days 君に届くように
 
             </div>
 
+
+            <!-- プレイヤー -->
             <div class="player">
 
               <span class="current">
@@ -160,7 +173,8 @@ it's our white days 君に届くように
                 class="seek"
                 value="0"
                 min="0"
-                max="100">
+                max="100"
+              >
 
               <span class="duration">
                 0:00
@@ -168,18 +182,86 @@ it's our white days 君に届くように
 
             </div>
 
+
+            <!-- 音源 -->
             <audio>
               <source src="../audio/ホワイトデイズ.m4a">
             </audio>
 
           </div>
 
+          <!-- 2曲目 -->
+          <div class="track">
+
+            <div class="track-head">
+
+              <div class="track-left">
+
+                <span class="track-title">
+
+                  02. Demo Song
+
+                  <span class="lyrics-popup">
+                    Demo Song
+
+                    ここに2曲目の歌詞を入れます
+
+                    歌詞がここに表示されます
+                    何行でも追加できます
+                  </span>
+
+                </span>
+
+
+                <!-- 再生ボタン -->
+                <button class="play">
+                  ▶
+                </button>
+
+              </div>
+
+            </div>
+
+
+            <!-- プレイヤー -->
+            <div class="player">
+
+              <span class="current">
+                0:00
+              </span>
+
+              <input
+                type="range"
+                class="seek"
+                value="0"
+                min="0"
+                max="100"
+              >
+
+              <span class="duration">
+                0:00
+              </span>
+
+            </div>
+
+
+            <!-- 音源 -->
+            <audio>
+              <source src="../audio/demo.m4a">
+            </audio>
+
+          </div>
+
         </div>
 
+
+        <!-- Song一覧へ戻る -->
         <p class="back">
+
           <a href="../song.html">
             ← Song一覧へ戻る
           </a>
+
         </p>
 
       </div>
@@ -187,13 +269,18 @@ it's our white days 君に届くように
     </div>
 
   </main>
+
+
   <!-- =======================================
        Footer
   ======================================== -->
 
   <footer class="footer">
+
     <p>© Ume</p>
+
   </footer>
+
 
   <!-- =======================================
        JavaScript
@@ -203,4 +290,5 @@ it's our white days 君に届くように
   <script src="../js/player.js"></script>
 
 </body>
+
 </html>
