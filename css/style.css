@@ -256,21 +256,16 @@ body {
   font-size: 48px;
 }
 
-.profile-content h2 {
-  margin: 0;
-  font-size: 40px;
-  font-weight: 700;
-}
-
 .profile-sub {
   margin: 10px 0 30px;
   font-size: 18px;
-  color: #777;
+  color: #000000;
 }
 
 .profile-content p {
+  margin: 10px 0 30px;
   font-size: 18px;
-  line-height: 1.9;
+  color: #424242b3;
 }
 
 
