@@ -237,18 +237,11 @@ body {
    Profile
 ======================================== */
 
-.profile-hero {
-  display: block;
-  width: 60%;
-  max-width: 1200px;
-  height: auto;
-  margin: 0 auto 70px;
-}
-
 .profile-content {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
+  text-align: left;
 }
 
 .profile-content h1 {
@@ -256,14 +249,16 @@ body {
   font-size: 48px;
 }
 
-.profile-sub {
+.profile-main {
   margin: 10px 0 30px;
+  padding: 0;
   font-size: 18px;
   color: #000000;
 }
 
-.profile-content p {
+.profile-sub {
   margin: 10px 0 30px;
+  padding: 0;
   font-size: 18px;
   color: #424242b3;
 }
