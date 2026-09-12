@@ -13,27 +13,31 @@ if (hamburger && menu) {
 
 
 /* ========================================
-   Lyrics
+   Lyrics - Smartphone only
 ======================================== */
 
-document.querySelectorAll(".track-title").forEach(title => {
+if (window.innerWidth <= 768) {
 
-  title.addEventListener("click", (e) => {
+  document.querySelectorAll(".track-title").forEach(title => {
 
-    e.stopPropagation();
+    title.addEventListener("click", (e) => {
 
-    // 他の歌詞を閉じる
-    document.querySelectorAll(".track-title.is-open").forEach(openTitle => {
+      e.stopPropagation();
 
-      if (openTitle !== title) {
-        openTitle.classList.remove("is-open");
-      }
+      // 他の歌詞を閉じる
+      document.querySelectorAll(".track-title.is-open").forEach(openTitle => {
+
+        if (openTitle !== title) {
+          openTitle.classList.remove("is-open");
+        }
+
+      });
+
+      // タップした曲の歌詞を開閉
+      title.classList.toggle("is-open");
 
     });
 
-    // タップした曲の歌詞を開閉
-    title.classList.toggle("is-open");
-
   });
 
-});
+}
