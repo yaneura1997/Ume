@@ -526,8 +526,10 @@ body {
   z-index: 9999;
 }
 
-.track-title:hover .lyrics-popup {
-  display: block;
+@media (hover: hover) and (pointer: fine) {
+  .track-title:hover .lyrics-popup {
+    display: block;
+  }
 }
 
 .lyrics-popup::after {
