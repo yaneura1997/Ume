@@ -236,6 +236,13 @@ body {
 /* ========================================
    Profile
 ======================================== */
+.profile-hero {
+  display: block;
+  width: 60%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto 70px;
+}
 
 .profile-content {
   max-width: 1000px;
